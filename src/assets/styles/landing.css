@@ -355,6 +355,16 @@
   margin-bottom: 6px;
 }
 
+.job-period {
+  font-style: italic;
+  color: #d8d8d8;
+}
+
+.school-period {
+  font-style: italic;
+  color: #d8d8d8;
+}
+
 /* About Section */
 .about {
   display: flex;
@@ -383,6 +393,13 @@
 .about-box h2 {
   font-size: 2.2rem;
   margin-bottom: 20px;
+}
+
+.name-icon {
+  width: 128px;
+  height: 128px;
+  border-radius: 32px;
+  object-fit: contain;
 }
 
 .summary {

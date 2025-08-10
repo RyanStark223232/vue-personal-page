@@ -34,13 +34,6 @@ export const portfolioItems = [
     link: 'https://ryanstark223232.github.io/fullstack-GCP/',
   },
   {
-    title: 'Visualization-based Study on Airline On Time Performance in US',
-    image: '/images/portfolio/portfolio-11.png',
-    skillsUsed: ['Data Visualization'],
-    description: 'School project in UofC focusing on finding insights using data visualization.',
-    link: 'https://uofc601l02g7.github.io/UofC601L02_Project/',
-  },
-  {
     title: 'Youtube Recommendation System Study',
     image: '/images/portfolio/portfolio-10.png',
     skillsUsed: ['Deep Learning', 'Recommender System'],
@@ -63,6 +56,14 @@ export const portfolioItems = [
     link: 'https://ryanstark223232.github.io/Hotmob-Entrance-Test/Analyst_Report.html',
   },
   {
+    title: 'Causal-ML Study using DoWhy',
+    image: '/images/portfolio/portfolio-5.png',
+    skillsUsed: ['Statistic', 'Causal ML'],
+    description:
+      'A self-study project on Causal ML using DoWhy and a dataset of US Birth Record in 2022. Investigating the treatment effectiveness of NICU to the survival of infant.',
+    link: 'https://ryanstark223232.github.io/causalStudy/',
+  },
+  {
     title: 'Forcasting App Usage with ARIMA & LSTM',
     image: '/images/portfolio/portfolio-8.png',
     skillsUsed: ['Forcasting', 'PyTorch', 'LSTM'],
@@ -71,20 +72,19 @@ export const portfolioItems = [
     link: 'https://ryanstark223232.github.io/fullstack-GCP/html/App_Usage_LSTM_forcasting.html',
   },
   {
+    title: 'Visualization-based Study on Airline On Time Performance in US',
+    image: '/images/portfolio/portfolio-11.png',
+    skillsUsed: ['Data Visualization'],
+    description: 'School project in UofC focusing on finding insights using data visualization.',
+    link: 'https://uofc601l02g7.github.io/UofC601L02_Project/',
+  },
+  {
     title: 'Linear Regression Analysis on App Usage vs Time',
     image: '/images/portfolio/portfolio-13.png',
     skillsUsed: ['Linear Regression', 'R'],
     description:
       'Analyze the usage of different types of apps versus the time of day and week using linear regression, including assumption checking.',
     link: 'https://ryanstark223232.github.io/fullstack-GCP/html/App-Usage-and-Time.html',
-  },
-  {
-    title: 'Causal-ML Study using DoWhy',
-    image: '/images/portfolio/portfolio-5.png',
-    skillsUsed: ['Statistic', 'Causal ML'],
-    description:
-      'A self-study project on Causal ML using DoWhy and a dataset of US Birth Record in 2022. Investigating the treatment effectiveness of NICU to the survival of infant.',
-    link: 'https://ryanstark223232.github.io/causalStudy/',
   },
   {
     title: "Parkinson's Diagnosis from Video of Actions",
@@ -164,12 +164,14 @@ export const education = [
   {
     degreeName: 'MDSc. Data Science and Analytics in Health Science',
     school: 'University of Calgary',
+    period: '09/2024 - 09/2025',
     gpa: '3.98',
     awards: [],
   },
   {
     degreeName: 'BSc. Computer Science in Artificial Intelligence',
     school: 'Chinese University of Hong Kong',
+    period: '09/2017 - 07/2021',
     gpa: '3.85',
     awards: [
       'Dean’s List',
@@ -256,6 +258,7 @@ export const certifications = [
 ]
 
 export const name = 'Geoffrey Wong Hin'
+export const nameIcon = '/android-chrome-192x192.png'
 export const careerSummary =
   'Results-driven Data Scientist and AI Developer with over 3 years of experience designing scalable ML pipelines, developing NLP and computer vision solutions, and optimizing performance in resource-constrained environments. Proven track record of boosting efficiency, automating workflows, and delivering impactful data products in both academic and industry settings.'
 export const resumeLink =
