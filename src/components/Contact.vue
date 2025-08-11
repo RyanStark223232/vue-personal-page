@@ -6,9 +6,9 @@ import 'aos/dist/aos.css'
 
 onMounted(() => {
   AOS.init({
-    duration: 400,         // animation duration
-    once: false,            // animate only once on scroll
-    easing: 'ease-in-out'  // easing function
+    duration: 400, // animation duration
+    once: false, // animate only once on scroll
+    easing: 'ease-in-out', // easing function
   })
 })
 </script>

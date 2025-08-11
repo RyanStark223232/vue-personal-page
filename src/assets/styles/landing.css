@@ -383,7 +383,9 @@
   color: white;
   text-align: center;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .about-box:hover {
@@ -434,7 +436,9 @@
   border-radius: 8px;
   font-weight: 500;
   text-decoration: none;
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
 }
 
 .resume-link:hover {
