@@ -1,10 +1,22 @@
 <script setup lang="ts">
 import { workExperience, education, skills, certifications } from '../data/data'
+import { onMounted } from 'vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+onMounted(() => {
+  AOS.init({
+    duration: 400,         // animation duration
+    once: false,            // animate only once on scroll
+    easing: 'ease-in-out'  // easing function
+  })
+})
 </script>
 
 <template>
   <section id="resume" class="resume-section">
-    <div class="resume-box">
+    <div data-aos="fade-in" data-aos-delay="100" class="resume-box">
+    
       <!-- Work Experience -->
       <div class="resume-row">
         <div class="resume-title">Work Experience</div>

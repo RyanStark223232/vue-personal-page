@@ -1,10 +1,21 @@
 <script setup lang="ts">
 import { portfolioItems } from '../data/data'
+import { onMounted } from 'vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+onMounted(() => {
+  AOS.init({
+    duration: 400,         // animation duration
+    once: false,            // animate only once on scroll
+    easing: 'ease-in-out'  // easing function
+  })
+})
 </script>
 
 <template>
   <section id="portfolio" class="portfolio-section">
-    <div class="portfolio-box">
+    <div data-aos="fade-in" data-aos-delay="100" class="portfolio-box">
       <h2 class="section-title">Portfolio</h2>
       <div class="portfolio-grid">
         <div v-for="(item, index) in portfolioItems" :key="index" class="portfolio-item">
