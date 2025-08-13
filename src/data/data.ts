@@ -66,9 +66,9 @@ export const portfolioItems = [
   {
     title: 'Forcasting App Usage with ARIMA & LSTM',
     image: '/images/portfolio/portfolio-8.png',
-    skillsUsed: ['Forcasting', 'PyTorch', 'LSTM'],
+    skillsUsed: ['Forcasting', 'PyTorch', 'LSTM', 'SARIMA'],
     description:
-      'Focusing on the usage of communication apps, which exhibit a seasonal pattern of higher usage during work hours, the demonstration reveals that LSTM is superior at capturing more complex patterns compared to ARIMA, with a lower Mean Squared Error.',
+      'The demonstration reveals that LSTM is superior at capturing more complex patterns compared to ARIMA, showing a lower MSE. (Dataset actually don\'t meet ARIMA assumption and SARIMA is actually better model)',
     link: 'https://ryanstark223232.github.io/fullstack-GCP/html/App_Usage_LSTM_forcasting.html',
   },
   {
