@@ -162,7 +162,7 @@ export const workExperience = [
 
 export const education = [
   {
-    degreeName: 'MDSc. Data Science and Analytics in Health Science',
+    degreeName: 'MDSc. Data Science and Analytics',
     school: 'University of Calgary',
     period: '09/2024 - 09/2025',
     gpa: '3.98',
