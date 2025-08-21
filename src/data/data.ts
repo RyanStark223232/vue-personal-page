@@ -26,6 +26,14 @@ export const contactInfo = [
 
 export const portfolioItems = [
   {
+    title: 'Marketing Mix Modeling (MMM) Project',
+    image: '/images/portfolio/portfolio-14.png',
+    skillsUsed: ['R', 'Markeing Mix Model', 'Causal Inference', 'Ad-Tech'],
+    description:
+      'Marketing Mix Study (MMM) with Meta siMMMulator and Robyn.',
+    link: 'https://ryanstark223232.github.io/MMM_Study/',
+  },
+  {
     title: 'GCP End-to-End Data Pipeline + Recommendation System',
     image: '/images/portfolio/portfolio-12.png',
     skillsUsed: ['Apache Beam', 'GCP', 'Looker', 'Matrix Factorization', 'Recommender System'],
@@ -148,6 +156,7 @@ export const workExperience = [
       'Scaled ETL pipeline performance 14x by implementing a graph-based max connected component algorithm for high-volume ID matching.',
       'Automated model retraining and data quality checks using Airflow and MLflow, eliminating up to 3 hours of manual intervention daily.',
       'Led cloud MLOps enablement for a global insurance provider, integrating interpretable ML solutions, managing SAS-to-Databricks migration, and deploying Power BI dashboards for real-time insights.',
+      'Re‑platformed legacy Apache Beam pipeline into modular, testable components with CI/CD; 80% code reduction, 67% runtime reduction; added fault tolerance and backfills across 12 data sources.',
     ],
   },
   {
@@ -192,7 +201,7 @@ export const skills = [
   },
   {
     session: 'Machine Learning',
-    skills: ['Pytorch', 'Scikit-Learn', 'Keras', 'Tensorflow', 'MLFlow', 'HyperOpt'],
+    skills: ['Pytorch', 'Scikit-Learn', 'Keras', 'Tensorflow', 'MLFlow', 'HyperOpt', 'Great Expectations'],
   },
   {
     session: 'Large Language Model',
@@ -203,8 +212,8 @@ export const skills = [
     skills: ['Airflow', 'Kubernetes', 'FastAPI', 'Flask'],
   },
   {
-    session: 'Data Engineering',
-    skills: ['PySpark', 'Apache Beam', 'Databricks', 'Hadoop'],
+    session: 'Data Pipeline',
+    skills: ['PySpark', 'Apache Beam', 'Databricks', 'Hadoop', 'Kafka', 'Delta Lake'],
   },
   {
     session: 'Data Dashboards',
@@ -212,7 +221,7 @@ export const skills = [
   },
   {
     session: 'Cloud Platform',
-    skills: ['Google Cloud Platform', 'Azure', 'AWS'],
+    skills: ['Google Cloud Platform', 'Azure', 'Vertex AI', 'BigQuery', 'Synapse'],
   },
   {
     session: 'Spoken Languages',
