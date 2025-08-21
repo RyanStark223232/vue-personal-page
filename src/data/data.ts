@@ -252,6 +252,13 @@ export const certifications = [
     link: 'https://google.accredible.com/40a5196e-5ff5-43fa-b7e7-b6b25939faa7',
   },
   {
+    certName: 'Hackerrank Misc Certifications',
+    issuer: 'Hackerrank',
+    period: '06/2025',
+    image: '/images/certifications/Hackerrank_misc.png',
+    link: 'https://www.hackerrank.com/profile/geoffreywonghin',
+  },
+  {
     certName: "Google's Large Language Model (LLM) Learning Path",
     issuer: 'Cloud Skill Boost',
     period: '06/2023',
