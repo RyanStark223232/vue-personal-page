@@ -26,6 +26,14 @@ export const contactInfo = [
 
 export const portfolioItems = [
   {
+    title: 'MLOps Study with Databricks',
+    image: '/images/portfolio/portfolio-15.png',
+    skillsUsed: ['Databricks', 'MLOps', 'PySpark', 'MLFlow', 'HyperOpt', 'Feature Store', 'Canary Deployment'],
+    description:
+      'MLOps Study with Databricks.',
+    link: 'https://ryanstark223232.github.io/databricks-free/',
+  },
+  {
     title: 'Marketing Mix Modeling (MMM) Project',
     image: '/images/portfolio/portfolio-14.png',
     skillsUsed: ['R', 'Markeing Mix Model', 'Causal Inference', 'Ad-Tech'],
