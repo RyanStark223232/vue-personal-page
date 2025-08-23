@@ -66,7 +66,7 @@ onMounted(() => {
 
       <!-- Certifications -->
       <div class="resume-row">
-        <div class="resume-title">Professional Development & Certifications</div>
+        <div class="resume-title">Training & Certifications</div>
         <div class="resume-content">
           <div
             v-for="(cert, index) in certifications"

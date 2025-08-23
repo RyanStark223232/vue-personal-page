@@ -239,7 +239,7 @@ export const skills = [
 
 export const certifications = [
   {
-    certName: 'Certified Kubernetes Administrator (CKA)',
+    certName: 'Certified Kubernetes Administrator Course',
     issuer: 'Udemy',
     period: '06/2025',
     image: '/images/certifications/kubernetes_cert.jpg',
