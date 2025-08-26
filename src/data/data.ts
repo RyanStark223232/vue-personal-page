@@ -150,9 +150,9 @@ export const workExperience = [
     company: 'Shatin Hospital',
     period: '06/2023 - 08/2024',
     achievements: [
-      'Developed agentic chatbots in LangChain with 95% accuracy to autonomously query SQL databases and generate visual reports.',
-      'Boosted the Computer Vision Diagnostic model AUC to 73% by applying advanced feature engineering and data augmentation, like Autoencoding and FFT.',
-      'Cut operational costs by 80% by integrating pre-trained face masking CV models and LLMs into ML pipelines, enabling real-time personal information redaction at scale.',
+      'Achieved 95% task success rate with agentic chatbots by developing autonomous agents in LangChain that queried SQL databases and generated dynamic visual reports.',
+      'Increased diagnostic model AUC to 73% by applying advanced feature engineering techniques and data augmentation (autoencoding, FFT) to medical imaging data.',
+      'Cut PII redaction costs by 80% by integrating pre-trained face-masking computer vision models and large language models into production ML pipelines.',
     ],
   },
   {
@@ -160,10 +160,10 @@ export const workExperience = [
     company: 'Hotmob Limited',
     period: '07/2021 - 06/2023',
     achievements: [
-      'Increased NLP website comprehension system throughput by 10x while reducing inference cost by 50% via GPT-2 fine-tuning and optimized deployment.',
-      'Scaled ETL pipeline performance 14x by implementing a graph-based max connected component algorithm for high-volume ID matching.',
-      'Automated model retraining and data quality checks using Airflow and MLflow, eliminating up to 3 hours of manual intervention daily.',
-      'Led cloud MLOps enablement for a global insurance provider, integrating interpretable ML solutions, managing SAS-to-Databricks migration, and deploying Power BI dashboards for real-time insights.',
+      'Improved NLP system throughput 10x and halved inference costs by fine-tuning GPT-2 and deploying optimized serving infrastructure on GKE for automated website content understanding.',
+      'Accelerated ETL speed 14x and reduced memory use by 78% through custom implementation of a max connected component algorithm for scalable ID graph matching.',
+      'Saved up to 3 hours of manual labor daily by automating ML retraining and drift detection workflows using Airflow and MLflow.',
+      'Led MLOps adoption at a global insurance client by migrating workflows from SAS to Databricks, deploying interpretable ML models, and building Power BI dashboards for ongoing performance monitoring.',
       'Re‑platformed legacy Apache Beam pipeline into modular, testable components with CI/CD; 80% code reduction, 67% runtime reduction; added fault tolerance and backfills across 12 data sources.',
     ],
   },
