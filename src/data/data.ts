@@ -239,6 +239,12 @@ export const skills = [
 
 export const certifications = [
   {
+    certName: 'Sustainability in Energy Micro-Credential 2025',
+    issuer: 'geoLOGIC',
+    period: '09/2025',
+    image: '/images/certifications/ESG.png',
+  },
+  {
     certName: 'Certified Kubernetes Administrator Course',
     issuer: 'Udemy',
     period: '06/2025',
