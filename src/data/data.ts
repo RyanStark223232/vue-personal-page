@@ -26,6 +26,14 @@ export const contactInfo = [
 
 export const portfolioItems = [
   {
+    title: 'Resume Agent Langgraph',
+    image: '/images/portfolio/portfolio-16.png',
+    skillsUsed: ['LangGraph', 'Agent Evaluation', 'LangSmith', 'Human-in-loop', 'Agents'],
+    description:
+      'Agentic resume writing with LangGraph — from job posting to polished CV with human-in-the-loop feedback.',
+    link: 'https://ryanstark223232.github.io/resume_mirror/resume_mirror.html',
+  },
+  {
     title: 'MLOps Study with Databricks',
     image: '/images/portfolio/portfolio-15.png',
     skillsUsed: ['Databricks', 'MLOps', 'PySpark', 'MLFlow', 'HyperOpt', 'Feature Store', 'Canary Deployment'],
@@ -213,7 +221,7 @@ export const skills = [
   },
   {
     session: 'Large Language Model',
-    skills: ['Huggingface', 'LangChain (Agents)', 'FAISS', 'Pinecone', 'LoRA (PEFT)', 'RAG'],
+    skills: ['Huggingface', 'LangChain', 'LangGraph', 'FAISS', 'Pinecone', 'LoRA (PEFT)', 'RAG'],
   },
   {
     session: 'Orchestration & Deployment',
