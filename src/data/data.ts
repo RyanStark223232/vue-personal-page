@@ -247,24 +247,16 @@ export const skills = [
 
 export const certifications = [
   {
+    certName: 'Foundation: Introduction to LangGraph',
+    issuer: 'LangChain Academy',
+    period: '09/2025',
+    image: '/images/certifications/LangGraph_Basic.png',
+  },
+  {
     certName: 'Sustainability in Energy Micro-Credential 2025',
     issuer: 'geoLOGIC',
     period: '09/2025',
     image: '/images/certifications/ESG.png',
-  },
-  {
-    certName: 'Certified Kubernetes Administrator Course',
-    issuer: 'Udemy',
-    period: '06/2025',
-    image: '/images/certifications/kubernetes_cert.jpg',
-    link: 'https://www.udemy.com/certificate/UC-745259c4-3062-45ce-8bb8-2c6d74a9df76/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com',
-  },
-  {
-    certName: 'Google Project Management Certificate',
-    issuer: 'Coursera',
-    period: '07/2023',
-    image: '/images/certifications/google-project-management-certificate.2.png',
-    link: 'https://www.credly.com/badges/7aa1ce4d-666c-4065-bd91-54066062e5a2/public_url',
   },
   {
     certName: 'Professional Machine Learning Engineer',
@@ -274,11 +266,25 @@ export const certifications = [
     link: 'https://google.accredible.com/40a5196e-5ff5-43fa-b7e7-b6b25939faa7',
   },
   {
+    certName: 'Certified Kubernetes Administrator Course',
+    issuer: 'Udemy',
+    period: '06/2025',
+    image: '/images/certifications/kubernetes_cert.jpg',
+    link: 'https://www.udemy.com/certificate/UC-745259c4-3062-45ce-8bb8-2c6d74a9df76/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com',
+  },
+  {
     certName: 'Hackerrank Misc Certifications',
     issuer: 'Hackerrank',
     period: '06/2025',
     image: '/images/certifications/Hackerrank_misc.png',
     link: 'https://www.hackerrank.com/profile/geoffreywonghin',
+  },
+  {
+    certName: 'Google Project Management Certificate',
+    issuer: 'Coursera',
+    period: '07/2023',
+    image: '/images/certifications/google-project-management-certificate.2.png',
+    link: 'https://www.credly.com/badges/7aa1ce4d-666c-4065-bd91-54066062e5a2/public_url',
   },
   {
     certName: "Google's Large Language Model (LLM) Learning Path",
