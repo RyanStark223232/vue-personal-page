@@ -251,6 +251,7 @@ export const certifications = [
     issuer: 'LangChain Academy',
     period: '09/2025',
     image: '/images/certifications/LangGraph_Basic.png',
+    link: 'https://academy.langchain.com/certificates/pqxaulmfuy',
   },
   {
     certName: 'Sustainability in Energy Micro-Credential 2025',
