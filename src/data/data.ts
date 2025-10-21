@@ -307,7 +307,7 @@ export const nameIcon = '/android-chrome-192x192.png'
 export const careerSummary =
   'Results-driven Data Scientist and AI Developer with over 3 years of experience designing scalable ML pipelines, developing NLP and computer vision solutions, and optimizing performance in resource-constrained environments. Proven track record of boosting efficiency, automating workflows, and delivering impactful data products in both academic and industry settings.'
 export const resumeLink =
-  'https://docs.google.com/document/d/1TFEV5j4_wGhTOM0Qm_G8kPaXMZFgKSpW4ei3i6EpCUM/edit?usp=sharing'
+  'https://docs.google.com/document/d/1hU9vCbDFraDTRThHqE7aWypq2ln8ShvkDD68ICfFsQk/edit?usp=sharing'
 
 export const homePageMeta = {
   title: 'Geoffrey Wong Hin | Full-stack Data Scientist',
